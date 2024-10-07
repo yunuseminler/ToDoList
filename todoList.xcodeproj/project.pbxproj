@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F9BF314E2CAF340800AB0CCD /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF314D2CAF340800AB0CCD /* HeaderView.swift */; };
+		F9BF31502CAF3A7B00AB0CCD /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF314F2CAF3A7B00AB0CCD /* TLButton.swift */; };
+		F9BF31522CB4837E00AB0CCD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF31512CB4837E00AB0CCD /* Extensions.swift */; };
 		F9C968BB2CA5DF25008D3FAA /* todoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C968BA2CA5DF25008D3FAA /* todoListApp.swift */; };
 		F9C968BD2CA5DF25008D3FAA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C968BC2CA5DF25008D3FAA /* MainView.swift */; };
 		F9C968BF2CA5DF26008D3FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C968BE2CA5DF26008D3FAA /* Assets.xcassets */; };
@@ -55,6 +57,8 @@
 
 /* Begin PBXFileReference section */
 		F9BF314D2CAF340800AB0CCD /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F9BF314F2CAF3A7B00AB0CCD /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		F9BF31512CB4837E00AB0CCD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F9C968B72CA5DF25008D3FAA /* todoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C968BA2CA5DF25008D3FAA /* todoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoListApp.swift; sourceTree = "<group>"; };
 		F9C968BC2CA5DF25008D3FAA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -159,6 +163,7 @@
 				F9C969052CA5EE11008D3FAA /* RegisterView.swift */,
 				F9C969072CA5EE61008D3FAA /* ToDoListItemView.swift */,
 				F9BF314D2CAF340800AB0CCD /* HeaderView.swift */,
+				F9BF314F2CAF3A7B00AB0CCD /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 				F9C968BE2CA5DF26008D3FAA /* Assets.xcassets */,
 				F9C968BA2CA5DF25008D3FAA /* todoListApp.swift */,
 				F9C968F72CA5E2FE008D3FAA /* GoogleService-Info.plist */,
+				F9BF31512CB4837E00AB0CCD /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -302,6 +308,7 @@
 				F9C9690E2CA5EEE8008D3FAA /* MainViewViewModel.swift in Sources */,
 				F9C968BD2CA5DF25008D3FAA /* MainView.swift in Sources */,
 				F9C969062CA5EE11008D3FAA /* RegisterView.swift in Sources */,
+				F9BF31502CAF3A7B00AB0CCD /* TLButton.swift in Sources */,
 				F9C969102CA5EF02008D3FAA /* ProfileViewViewModel.swift in Sources */,
 				F9C969002CA5EDEE008D3FAA /* ToDoListView.swift in Sources */,
 				F9C9690A2CA5EE8E008D3FAA /* User.swift in Sources */,
@@ -309,6 +316,7 @@
 				F9C969122CA5EF12008D3FAA /* ToDoListViewViewModel.swift in Sources */,
 				F9C969162CA5EF2B008D3FAA /* LoginViewViewModel.swift in Sources */,
 				F9C968FE2CA5EDD6008D3FAA /* ProfileView.swift in Sources */,
+				F9BF31522CB4837E00AB0CCD /* Extensions.swift in Sources */,
 				F9C9690C2CA5EE9D008D3FAA /* ToDoListItem.swift in Sources */,
 				F9C968BB2CA5DF25008D3FAA /* todoListApp.swift in Sources */,
 				F9C969142CA5EF1F008D3FAA /* NewItemViewViewModel.swift in Sources */,
