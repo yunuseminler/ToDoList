@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F993CA952CB879AB00676819 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F993CA942CB879AB00676819 /* Launch Screen.storyboard */; };
 		F9BF314E2CAF340800AB0CCD /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF314D2CAF340800AB0CCD /* HeaderView.swift */; };
 		F9BF31502CAF3A7B00AB0CCD /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF314F2CAF3A7B00AB0CCD /* TLButton.swift */; };
 		F9BF31522CB4837E00AB0CCD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF31512CB4837E00AB0CCD /* Extensions.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F993CA942CB879AB00676819 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F9BF314D2CAF340800AB0CCD /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		F9BF314F2CAF3A7B00AB0CCD /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		F9BF31512CB4837E00AB0CCD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				F9C968BA2CA5DF25008D3FAA /* todoListApp.swift */,
 				F9C968F72CA5E2FE008D3FAA /* GoogleService-Info.plist */,
 				F9BF31512CB4837E00AB0CCD /* Extensions.swift */,
+				F993CA942CB879AB00676819 /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			files = (
 				F9C968C22CA5DF26008D3FAA /* Preview Assets.xcassets in Resources */,
 				F9C968BF2CA5DF26008D3FAA /* Assets.xcassets in Resources */,
+				F993CA952CB879AB00676819 /* Launch Screen.storyboard in Resources */,
 				F9C968F82CA5E2FE008D3FAA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +464,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,6 +493,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
